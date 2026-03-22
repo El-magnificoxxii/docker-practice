@@ -6,10 +6,10 @@
 4. Install Docker extension on VS Code
 5. Clone the repo in VS Code terminal:  
    `git clone https://github.com/docker/getting-started-todo-app`
-6. Note: cloning won't work if you don’t have git installed on your system
+6. Note: cloning won't work if you don’t have git installed on your system. 
 7. Right-click the `Dockerfile` in the cloned folder and select **Build Image…**
 8. In the dialog, enter image name: `000008/getting-started-todo-app` (000008 = your Docker username)
-9. I got this error: **npm error**
+9. I got this error: **npm error**. <img src="./image/docker-1.bmp" alt="npm error during first build">
 10. I reran the build in a new terminal. Then it worked. Notice: `000008/getting-started-todo-app:latest`
 11. Tried to push: `docker push 000008/getting-started-todo-app-latest`
 12. I noticed the image was in Docker Desktop but not on my Docker Hub registry
