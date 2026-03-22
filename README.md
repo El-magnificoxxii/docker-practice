@@ -10,9 +10,9 @@
 7. Right-click the `Dockerfile` in the cloned folder and select **Build Image…**
 8. In the dialog, enter image name: `000008/getting-started-todo-app` (000008 = your Docker username)
 9. I got this error: **npm error**. <img src="./image/docker-1.bmp" alt="npm error during first build">
-10. I reran the build in a new terminal. Then it worked. Notice: `000008/getting-started-todo-app:latest`
-11. Tried to push: `docker push 000008/getting-started-todo-app-latest`
-12. I noticed the image was in Docker Desktop but not on my Docker Hub registry
-13. Ran `docker pull` to check → error showed the image wasn’t pushed to Docker Hub
-14. Confirmed locally with `docker image` (or `docker images`) → my image was available locally
-15. Reran `docker push`, now it is visible on Docker Hub. It appears there was a network error during the previous push attempt.
+10. I reran the build in a new terminal. Then it worked. Notice: `000008/getting-started-todo-app:latest`<img src="./image/docker-2.bmp" alt="npm error during first build">
+11. Tried to push: `docker push 000008/getting-started-todo-app-latest`<img src="./image/docker-3.bmp" alt="npm error during first build">
+12. I noticed the image was in Docker Desktop but not on my Docker Hub registry<img src="./image/docker-4.bmp" alt="npm error during first build"><img src="./image/docker-5.bmp" alt="npm error during first build">
+13. Ran `docker pull` to check → error showed the image wasn’t pushed to Docker Hub<img src="./image/docker-6.bmp" alt="npm error during first build">
+14. Confirmed locally with `docker image` (or `docker images`) → my image was available locally<img src="./image/docker-7.bmp" alt="npm error during first build">
+15. Reran `docker push`, now it is visible on Docker Hub. It appears there was a network error during the previous push attempt.<img src="./image/docker-8.bmp" alt="npm error during first build"><img src="./image/docker-9.bmp" alt="npm error during first build">
